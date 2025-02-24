@@ -1,0 +1,16 @@
+{
+    "name": "yammerjp/psr7bridge",
+    "description": "PSR7 wrapper from good old PHP script",
+    "autoload": {
+        "psr-4": {
+            "Yammerjp\\Psr7bridge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keisuke Nakayama",
+            "email": "me@yammer.jp"
+        }
+    ],
+    "require": {}
+}
