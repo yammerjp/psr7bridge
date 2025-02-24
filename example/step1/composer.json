@@ -1,0 +1,27 @@
+{
+    "name": "yammerjp/psr7bridgeexample",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yammerjp\\Psr7bridgeexample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keisuke Nakayama",
+            "email": "me@yammer.jp"
+        }
+    ],
+    "require": {
+        "yammerjp/psr7bridge": "dev-main"
+    }
+}
