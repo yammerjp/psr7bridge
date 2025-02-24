@@ -49,6 +49,7 @@ class Psr7CompatibleHandler implements RequestHandlerInterface
 
         $output = ob_get_clean();
         $headerLines = headers_list();
+        header_remove();
         return $this->responseBuilder->build($headerLines, $output);
     }
 }
